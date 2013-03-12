@@ -2,7 +2,11 @@
    Base
    ========================================================================== */
 
-body { }
+body {
+    background: url("../img/space_bg.jpg") no-repeat fixed center center / cover  transparent;
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+}
 
 
 
@@ -11,6 +15,19 @@ body { }
    ========================================================================== */
 
 .banner { }
+
+.navbar-inner {
+    background: rgba(0,0,0,.6);
+    border: none;
+}
+.navbar .brand { text-shadow: none; }
+.navbar .nav > li > a {text-shadow: none;}
+.media { margin-top: 0px; }
+.page-header{ 
+    border-bottom: none; 
+    margin: 0px 0 10px;
+    padding-bottom: 0px;
+}
 
 
 
@@ -26,7 +43,20 @@ body { }
    Primary Content
    ========================================================================== */
 
+.entry-meta { 
+    color: #666;
+    font-size: 14px;
+    margin: -5px 0px 20px 0px
+}
 .main { }
+.shadebg {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background: rgba(0,0,0,.5);
+    border-radius: 6px;
+    margin-top: 15px;
+    padding: 20px;
+}
 
 
 
