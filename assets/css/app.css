@@ -33,12 +33,12 @@ h6 {
   margin: 0;
   font-family: "XoloniumNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  color: #999;
+  color: #AAA;
   text-rendering: optimizelegibility;
 }
 
 h1 {
-  color: #ddd;
+  /*color: #ddd;*/
   font-size: 30px;
   line-height: 36px;
 }
@@ -48,7 +48,7 @@ h1 small {
 }
 
 h2 {
-  color: #ddd;
+  /*color: #ddd;*/
   font-size: 24px;
   line-height: 36px;
 }
@@ -58,7 +58,7 @@ h2 small {
 }
 
 h3 {
-  color: #ddd;
+  /*color: #ddd;*/
   font-size: 18px;
   line-height: 27px;
 }
@@ -145,6 +145,12 @@ h6 {
 
 .content { }
 
+.tags {
+  margin-bottom: 15px; 
+}
+.tags a {
+  color: #333; 
+}
 
 
 /* ==========================================================================

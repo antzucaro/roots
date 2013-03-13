@@ -9,7 +9,11 @@
     </div>
     <footer>
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
-      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
+
+      <div class="tags">
+        <?php the_tags('<span class="label">', '</span>&nbsp;<span class="label">', '</span>'); ?>
+      </div>
+
     </footer>
     <?php comments_template('/templates/comments.php'); ?>
   </article>

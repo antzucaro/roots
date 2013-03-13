@@ -15,7 +15,9 @@
       <?php the_excerpt(); ?>
     </div>
     <footer>
-      <?php the_tags('<ul class="entry-tags"><li>','</li><li>','</li></ul>'); ?>
+      <div class="tags">
+        <?php the_tags('<span class="label">', '</span>&nbsp;<span class="label">', '</span>'); ?>
+      </div>
     </footer>
   </article>
 <?php endwhile; ?>
