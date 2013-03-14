@@ -194,7 +194,14 @@ h6 {
 .hentry .entry-content { }
 .hentry footer { }
 
-
+.pager li > a, .pager li > span {
+    background-color: #AAAAAA;
+    border: 1px solid #999999;
+    border-radius: 15px 15px 15px 15px;
+    color: #0A0A0A;
+    display: inline-block;
+    padding: 5px 14px;
+}
 
 /* ==========================================================================
    Footer
