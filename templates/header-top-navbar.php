@@ -7,6 +7,7 @@
         <span class="icon-bar"></span>
       </a>
       <a class="brand" href="<?php echo home_url(); ?>/">
+        <img src="/assets/img/xon_icon_mono.png">
         <?php bloginfo('name'); ?>
       </a>
       <nav class="nav-main nav-collapse" role="navigation">

@@ -99,8 +99,13 @@ h6 {
 
 .banner { }
 
+.brand img{
+    width: 19px;
+}
+.nav, .brand {
+    font-family: "XoloniumNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .nav {
-  font-family: "XoloniumNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 18px;
   margin-left: 0;
   list-style: none;
@@ -109,7 +114,10 @@ h6 {
     background: rgba(0,0,0,.6);
     border: none;
 }
-.navbar .brand { text-shadow: none; }
+.navbar .brand { 
+    color: #999999;
+    text-shadow: none;
+}
 .navbar .nav > li > a {
   float: none;
   font-size: 15px;
@@ -243,6 +251,7 @@ h6 {
    Footer
    ========================================================================== */
 
+footer { margin-top: 15px; }
 .content-info { }
 
 
