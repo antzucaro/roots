@@ -13,7 +13,6 @@
 }
 
 
-
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -24,84 +23,55 @@ body {
     font-size: 16px;
 }
 a:focus { outline: none; }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: "XoloniumNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #AAA;
   text-rendering: optimizelegibility;
 }
-
 h1 {
-  /*color: #ddd;*/
   font-size: 30px;
   line-height: 36px;
 }
-
-h1 small {
-  font-size: 18px;
-}
-
+h1 small { font-size: 18px; }
 h2 {
-  /*color: #ddd;*/
   font-size: 24px;
   line-height: 36px;
 }
-
-h2 small {
-  font-size: 18px;
-}
-
+h2 small { font-size: 18px; }
 h3 {
-  /*color: #ddd;*/
   font-size: 18px;
   line-height: 27px;
 }
-
-h3 small {
-  font-size: 14px;
-}
-
-h4,
-h5,
-h6 {
+h3 small { font-size: 14px; }
+h4, h5, h6 {
   /*font-family: inherit;*/
   line-height: 18px;
 }
-
 h4 {
   font-size: 14px;
   margin-bottom: 5px;
 }
-
-h4 small {
-  font-size: 12px;
-}
-
-h5 {
-  font-size: 12px;
-}
-
+h4 small { font-size: 12px; }
+h5 { font-size: 12px; }
 h6 {
   font-size: 11px;
   color: #999999;
   text-transform: uppercase;
 }
+.btn-large {
+    font-size: 15px;
+    padding: 7px 19px;
+}
+
 
 /* =============================================================================
    Header
    ========================================================================== */
 
 .banner { }
-
-.brand img{
-    width: 19px;
-}
+.brand img{ width: 19px; }
 .nav, .brand {
     font-family: "XoloniumNormal", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -146,10 +116,7 @@ h6 {
 .dropdown-menu {
     background-color: rgb(48,48,48)
 }
-
-.dropdown-menu > li > a {
-    color: #AAA;
-}
+.dropdown-menu > li > a { color: #AAA; }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     color: #fff;
     text-decoration: none;
@@ -170,19 +137,14 @@ h6 {
 }
 
 
-
 /* ==========================================================================
    Content
    ========================================================================== */
 
 .content { }
 
-.tags {
-  margin-bottom: 15px; 
-}
-.tags a {
-  color: #333; 
-}
+.tags { margin-bottom: 15px; }
+.tags a { color: #333; }
 
 
 /* ==========================================================================
@@ -205,15 +167,11 @@ h6 {
 }
 
 
-
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 
-.sidebar {
-    font-size: 14px;
-}
-
+.sidebar { font-size: 14px; }
 
 
 /* ==========================================================================
@@ -237,7 +195,6 @@ h6 {
 .hentry .byline { }
 .hentry .entry-content { }
 .hentry footer { }
-
 .pager li > a, .pager li > span {
     background-color: #AAAAAA;
     border: 1px solid #999999;
@@ -255,7 +212,6 @@ footer { margin-top: 15px; }
 .content-info { }
 
 
-
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
@@ -267,11 +223,9 @@ footer { margin-top: 15px; }
 figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media (max-width: 767px) {
-
 }
