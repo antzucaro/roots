@@ -19,6 +19,7 @@
 
 body {
     background: url("../img/space_bg.jpg") no-repeat fixed center center / cover  transparent;
+    background-color: black;
     color: rgb(153, 153, 153);
     font-size: 16px;
 }
