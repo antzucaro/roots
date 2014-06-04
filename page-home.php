@@ -37,7 +37,7 @@ Template Name: Home Page Template
               </div>
 
               <div class="item">
-                <img alt="Integrated player statistics" src="http://www.xonotic.org/m/uploads/2012/07/carousel_stats.jpg">
+                <img alt="Integrated player statistics" src="http://www.xonotic.org/m/uploads/2014/06/carousel_stats_3.jpeg">
                 <div class="carousel-caption">
                   <h4>Integrated player statistics</h4>
                   <p>Track your progress in the game with <a href="http://stats.xonotic.org">XonStat</a>, the integrated statistics system!</p>
